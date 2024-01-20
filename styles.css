@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 10px;
+    width: 100%;
+    background-color: aliceblue;
+    
+
+}
+
+.logo-box{
+    display: inline-block;
+}
+
+ul{
+    float: right;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/heropic.jpg);
+}
+span{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+ .br{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+ } 
+ 
+ .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+
+ .card{
+    width: 280px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .profile-pic{
+    width: 100%;
+ }
+
+ .btn{
+    text-align: center;
+    background-color: #eee;
+    color: black;
+    padding: 5px;
+ }
+ .btn:hover{
+    background-color: #777;
+ }
+ .projects{
+    flex-direction: row;
+    
+ }
+ .homepic{
+    width: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 280px;
+    flex-grow: 1;   
+ 
+}
+.homepics{
+    margin: 10px;
+}
+input{
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px;
+}
+
+
+
+.Map{
+    width: 100%;
+}
